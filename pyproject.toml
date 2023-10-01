@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "patterns-implementation"
+version = "0.1.0"
+description = ""
+authors = ["Шахром Касимов <s.kasimov@relines.ru>"]
+readme = "README.md"
+packages = [{include = "patterns_implementation"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
